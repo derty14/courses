@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+        ymaps.ready(init);
+        var myMap, 
+            myPlacemark;
+
+        function init(){ 
+            myMap = new ymaps.Map("map1", {
+                center: [54.72595221, 55.96831808],
+                zoom: 17
+            }); 
+            
+            myPlacemark = new ymaps.Placemark([54.72595221, 55.96831808], {
+                hintContent: '',
+                balloonContent: ''
+            });
+            
+            myMap.geoObjects.add(myPlacemark);
+        }
+    </script>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Уфа-Курсы</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+  </head>
+<body>
+    <div class="row">
+        <div class="col-lg-3">
+            <img src="https://img1.goodfon.ru/wallpaper/big/2/a9/kruzhochki-blestki-goluboy.jpg">
+        </div>
+        <div class="col-xs-3">
+            <img src="https://img1.goodfon.ru/wallpaper/big/2/a9/kruzhochki-blestki-goluboy.jpg">
+        </div>
+        
+    </div>
+</body> 
