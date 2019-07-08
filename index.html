@@ -5,25 +5,25 @@
     </script>
     <script type="text/javascript">
         ymaps.ready(init);
-        var myMap, 
+        var myMap,
             myPlacemark;
 
-        function init(){ 
+        function init(){
             myMap = new ymaps.Map("map1", {
                 center: [54.72595221, 55.96831808],
                 zoom: 17
-            }); 
-            
+            });
+
             myPlacemark = new ymaps.Placemark([54.72595221, 55.96831808], {
                 hintContent: '',
                 balloonContent: ''
             });
-            
+
             myMap.geoObjects.add(myPlacemark);
         }
     </script>
     <meta charset="utf-8">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Уфа-Курсы</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" />
@@ -49,7 +49,7 @@
 	      			<input type="hidden" class="type" value="call" name="type">
 					<input class="name" name="name" type="text" required placeholder="Ваше имя">
 					<input class="tel" name="tel" type="text" required placeholder="Ваш телефон">
-		       		<button>Перезвоните мне</button>	      			
+		       		<button>Перезвоните мне</button>
 	      		</form>
 	      	</div>
 	    </div>
@@ -70,14 +70,14 @@
 	      			<input type="hidden" class="type" value="zamer" name="type">
 					<input class="name" name="name" type="text" required placeholder="Ваше имя">
 					<input class="tel" name="tel" type="text" required placeholder="Ваш телефон">
-		       		<button>ОСТАВИТЬ ЗАЯВКУ</button>	      			
+		       		<button>ОСТАВИТЬ ЗАЯВКУ</button>
 	      		</form>
 	      	</div>
 	    </div>
 	  </div>
 	</div>
     <header>
-    	<div class="call wow fadeInUp" data-wow-duration="2s">    
+    	<div class="call wow fadeInUp" data-wow-duration="2s">
         	<div class="container-fluid">
     	    	<div class="container">
     		    	<div class="row">
@@ -91,18 +91,18 @@
     		    					<img src="images/phone-icon.png" alt="icon">
     		    					<div>
     			    					<a href="tel:+7 (347) 228 83 30">+7 (347) 228 83 30</a>
-    			    					<span>Без выходных с 8:00 до 23:00</span>    						
+    			    					<span>Без выходных с 8:00 до 23:00</span>
     		    					</div>
     		    				</div>
     		    				<button data-toggle="modal" data-target="#call">Бесплатная консультация</button>
     		    			</div>
     		    		</div>
-    		    	</div>    		
-    	    	</div>    		
+    		    	</div>
+    	    	</div>
         	</div>
-    	</div>	
+    	</div>
 		<nav>
-		    <div class="call wow fadeInUp" data-wow-duration="2s"> 
+		    <div class="call wow fadeInUp" data-wow-duration="2s">
 			<div class="container">
 				<div class="row">
 				    <button class="d-md-none navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -111,24 +111,24 @@
 						</svg>
 				    </button>
 					<div class="col-12 d-md-flex justify-content-between align-items-center collapse" id="navbarToggleExternalContent">
-					    
-						
+
+
 						<a class="smoothScroll" href=".kinds">Что мы можем предложить?</a>
 						<a class="smoothScroll" href=".reviews">Отзывы Клиентов</a>
 						<a class="smoothScroll" href=".characteristics">Гарантии качества</a>
-						<a class="smoothScroll" href="footer">Как нас найти?</a></br>	
-						
+						<a class="smoothScroll" href="footer">Как нас найти?</a></br>
+
 						</br>
 					</div>
-				</div>				
+				</div>
 			</div>
 			</div>
 		</nav>
     </header>
 	<main>
-	
+
 	<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-	     
+
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
                     <img class="d-block img-fluid" src="images/b1.jpg" alt="First slide">
@@ -136,9 +136,9 @@
                 <div class="carousel-item">
                     <img class="d-block img-fluid" src="images/b2.jpg" alt="Second slide">
                 </div>
-                
-                
-                
+
+
+
 <div class="carousel-caption">
     <div class="row justify-content-center">
     <div class="first-block">
@@ -157,9 +157,9 @@
 								<form action="da.php" method="post">
 									<input class="name" name="name" type="text" id="name" required placeholder="Ваше имя">
 					                <input class="tel" name="tel" type="text" id="tel" required placeholder="Ваш телефон">
-									 
+
 									<div class="contacts d-flex justify-content-between align-items-center flex-wrap">
-								<div><h4>Заполни форму и мы перезвоним вам в ближайшее время</h4></div>								    
+								<div><h4>Заполни форму и мы перезвоним вам в ближайшее время</h4></div>
 							<button type="submit" class="btn btn-primary center-block btn-lg">Заказать звонок</button>
 							</div>
 								</form>
@@ -171,50 +171,12 @@
     </div>
     </div> <!-- Закрывает смещение -->
 </div>
-                
+
                 <div class="carousel-item">
                     <img class="d-block img-fluid" src="images/b3.jpg" alt="Third slide">
                 </div>
             </div>
-    </div>    
-	
-		
-		
-		<!-- 
-		
-		<div class="container">
-			<div class="row">
-				<div class="texnology col-12">
-					<h2 class="wow fadeInUp" data-wow-duration="2s">Профессиональные курсы для рабочих кадров</h2>
-					<div class="grid">
-						<div class="wow fadeInLeft" data-wow-duration="2s">
-							<img src="images/texnology-item1.jpg" alt="img">
-							
-						</div>
-						<div class="wow fadeInUp" data-wow-duration="2s">
-							<img src="images/texnology-item2.jpg" alt="img">
-							
-						</div>
-						<div class="wow fadeInUp" data-wow-duration="2s">
-							<img src="images/texnology-item3.jpg" alt="img">
-							
-						</div>
-						<div class="wow fadeInRight" data-wow-duration="2s">
-							<img src="images/texnology-item4.jpg" alt="img">
-						
-						</div>	
-						
-					</div>
-					<div class="wow fadeInUp" data-wow-duration="3s">
-					    <a class="btn btn-info btn-lg btn-block" href="http://ufa-courses.b4b.zone/tabl2.html" role="button">Подробнее о курсе</a>
-					</div>    
-				</div>
-			</div>
-		</div>
-		
-	    -->
-	    
-	    
+    </div>
 	    <div class="container">
 			<div class="row">
 				<div class="characteristics col-12">
@@ -288,9 +250,9 @@
 			</div>
 		</div>
 
-	    
-	    
-	    
+
+
+
 		<div class="kinds container-fluid">
 			<div class="container">
 				<div class="row">
@@ -300,7 +262,7 @@
 							<div class="item item1 wow fadeInLeft" data-wow-duration="2s">
 								<img class="img" src="images/g1.jpg " alt="img">
 								<div class="wrap">
-								
+
 									<span class="item-price">Профессиональное обучение по программам профессиональной подготовки, переподготовки и повышения квалификации рабочих кадров</span>
 									<div>
 										<span><img src="images/chech1.png" alt="img">100% трудоустройство</span>
@@ -309,30 +271,30 @@
 									</div>
 									</br>
 									<form action="1.php" method="post">
-									    
-									<input type="submit" value="Посмотреть все курсы" class="btn btn-warning btn-lg btn-block" onClick='location.href="http://ufa-courses.b4b.zone/tabl2.html"'>
-									
+
+									<input type="submit" value="Посмотреть все курсы" class="btn btn-warning btn-lg btn-block" onClick='location.href="tabl2.html"'>
+
 								</form>
-									
+
 									</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
 								</div>
-							
+
 							</div>
 							<div class="item item2 wow fadeInUp" data-wow-duration="2s">
 								<img class="img" src="images/g2.jpg" alt="img">
 								<div class="wrap">
-								
+
 									<span class="item-price">Обучение по дополнительным общеразвивающим программам дополнительного образования детей и взрослых</span>
 									<div>
 									    </br>
 										<span><img src="images/chech1.png" alt="img">Обучение профессионалами</span>
 										<span><img src="images/chech1.png" alt="img">Лучшие специалисты</span>
-										
-										
+
+
 									</div>
 								</br>
 									<form action="2.php" method="post">
-									<input type="submit" value="Посмотреть все курсы" class="btn btn-warning btn-lg btn-block" onClick='location.href="http://ufa-courses.b4b.zone/tabl1.html"'>
+									<input type="submit" value="Посмотреть все курсы" class="btn btn-warning btn-lg btn-block" onClick='location.href="tabl1.html"'>
 								</form>
 									</br></br></br></br></br>
 								</div>
@@ -340,7 +302,7 @@
 							<div class="item item3 wow fadeInRight" data-wow-duration="2s">
 								<img class="img" src="images/g3.jpg" alt="img">
 								<div class="wrap">
-									
+
 									<span class="item-price">Обучение по программам профессиональной переподготовки и повышения квалификации дополнительного профессионального образования</span>
 									<div>
 										<span><img src="images/chech1.png" alt="img">Наиболее оптимальные цены</span>
@@ -348,7 +310,7 @@
 									</div>
 									</br>
 									<form action="3.php" method="post">
-									<input type="submit" value="Посмотреть все курсы" class="btn btn-warning btn-lg btn-block" onClick='location.href="http://ufa-courses.b4b.zone/tabl3.html"'>
+									<input type="submit" value="Посмотреть все курсы" class="btn btn-warning btn-lg btn-block" onClick='location.href="tabl3.html"'>
 								</form>
 									</br></br></br></br></br>
 								</div>
@@ -356,9 +318,9 @@
 						</div>
 					</div>
 				</div>
-			</div>			
+			</div>
 		</div>
-	
+
 		<div class="zamer container-fluid">
 			<div class="container">
 				<div class="row">
@@ -373,20 +335,20 @@
 							<span>В ПОДАРОК ВЫ ПОЛУЧИТЕ:  </span>
 							<h4>+ КУПОН НА 20% СКИДКУ</h4>
 							<h4>+ БЕСПЛАТНОЕ ЗАНЯТИЕ</h4>
-							
+
 							<form action="da.php" method="post">
 								<div class="contacts d-flex justify-content-between align-items-center flex-wrap">
 							<button data-toggle="modal" data-target="#zamer">ОСТАВИТЬ ЗАЯВКУ</button>
 							</div>
-								
-								
+
+
 							</form>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="reviews container">
 			<div class="row">
 				<div class="col-12">
@@ -414,7 +376,7 @@
 		<div class="reviews container">
 			<div class="row">
 				<div class="col-12">
-					
+
 					<div class="items">
 						<div class="item item1 wow fadeInLeft" data-wow-duration="2s">
 							<img src="images/avatar8.jpg" alt="img">
@@ -444,10 +406,10 @@
 						<h3>Посоветуем актуальный курс,<br class="d-none d-md-block"> проконсультируем по всем вопросам.</h3>
 						<button data-toggle="modal" data-target="#zamer">ОСТАВИТЬ ЗАЯВКУ</button>
 					</div>
-				</div>				
+				</div>
 			</div>
-		</div>	   	 
-		
+		</div>
+
 <div id="map1" style="width: 100%; height: 400px"></div>
 </script>
 	</main>
@@ -466,7 +428,7 @@
 		</div>
 	</footer>
 	<a class="up" href="#"><img src="images/chevron-up.png" alt="icon"></a>
-	
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
